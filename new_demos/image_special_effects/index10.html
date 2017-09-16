@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Hover Effect Ideas</title>
+
+<style>
+.container {
+	position:relative;
+	width:480px;
+	height:360px;
+}
+
+.container div {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 200px;
+	left: 30px;
+	border: 5px solid #fff;
+	content: '';
+	transform: translate3d(0,0,0);
+	transition: transform 0.35s;
+}
+
+.container:hover div {
+	transform: translate3d(0,160px,0);
+
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+	<img src="img/12.jpg" />
+	<div>
+	</div>
+</div>
+
+</body>
+</html>

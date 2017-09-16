@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculate your age</title>
+<script>
+function calculate() {
+	var d = new Date();
+
+	var current_date = d.getDate();
+
+	var current_month = d.getMonth();
+
+	var current_year = d.getFullYear();
+
+	var date = current_date - document.getElementById("date").value;
+
+	var month = (current_month - document.getElementById("month").value) + 1;
+	
+	var year = current_year - document.getElementById("year").value;	
+
+	console.log(date);
+	console.log(month);
+	console.log(year);
+}
+</script>
+</head>
+<body>
+
+<input type="text" id="date" value="Date">
+<input type="text" id="month" value="Month">
+<input type="text" id="year" value="Year">
+
+<button onclick="calculate()">Click me</button>
+
+</body>
+</html>

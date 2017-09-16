@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Hover Effect Ideas</title>
+
+<style>
+.container {
+	position:relative;
+	width:480px;
+	height:360px;
+	overflow:hidden;
+}
+
+.container div {
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	text-align:center;
+}
+
+.container div h2 {
+	margin:70px 0 25px 0;
+	padding:0;
+	transition:margin 0.35s;
+	color:#fff;
+}
+
+.container:hover h2 {
+	margin:50px 0 25px 0;
+}
+
+.container div p {
+	margin-top:260px;
+	opacity:0;
+	transition:opacity 0.35s, margin-top 0.35s;
+	color:#fff;
+}
+
+.container:hover p {
+	opacity:1;
+	margin-top:210px;
+}
+
+.underline {
+	width:60%;
+	background-color:#fff;
+	border:1px solid #fff;
+	height:1px;
+	opacity:0;
+	transform:translate3d(0, 40px, 0);
+	transition:opacity 0.35s, transform 0.35s;
+}
+
+.container:hover .underline {
+	opacity:1;
+	transform:translate3d(0, 0, 0);
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+	<img src="img/12.jpg" />
+	<div>
+	<h2>Sweet Marley</h2>
+	<hr class="underline" />
+	<p>Marley tried to convince her but she was not interested.</p>
+	</div>
+</div>
+
+</body>
+</html>

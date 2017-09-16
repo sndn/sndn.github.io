@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Hover Effect Ideas</title>
+
+<style>
+.container {
+	width:480px;
+	height:360px;
+	position:relative;
+}
+
+.container div {
+	position:absolute;
+	left:0;
+	top:0;	
+	width:100%;
+	height:100%;
+}
+
+.container div h2 {
+	margin-top:55px;
+	margin-left:30px;
+	position: relative;
+}
+
+.container div h2::after {
+	position: absolute;
+	left:0;
+	width:0;
+	height:3px;
+	background:#000;
+	content:'';
+	transition:width 0.35s;
+	-webkit-transition:width 0.35s;	
+}
+
+.container:hover div h2::after {
+	width:90%;
+}
+
+</style>
+	
+</head>
+<body>
+
+<div class="container">
+	<img src="img/12.jpg" />
+	<div>
+	<h2>Free Sarah</h2>
+	</div>
+</div>
+
+</body>
+</html>

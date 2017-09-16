@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Index1</title>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+<style>
+.slider-outer {
+	width: 500px;
+	height: 300px;
+	margin: 40px auto;
+}
+
+.slider-inner {
+	position: relative;
+}
+
+.slider-inner img {
+	position: absolute;
+	display: none;
+}
+
+.slider-inner img.active {
+	display: inline-block;
+}
+
+.next {
+	position: absolute;
+	right: 0;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.2s;
+	animation-name: fade;
+	animation-duration: 1.2s;
+	-webkit-animation-timing-function: ease-in-out; /* Safari 4.0 - 8.0 */
+	animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .6}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .6}
+	to {opacity: 1}
+}
+</style>
+</head>
+<body>
+
+<div class="slider-outer">
+<img src="images/arrow-left.png" class="prev">
+
+<div class="slider-inner">
+	<img src="images/image1.jpg">
+	<img src="images/image2.jpg">
+	<img src="images/image3.jpg">
+	<img src="images/image4.jpg">
+</div>
+
+<img src="images/arrow-right.png" class="next">
+</div>
+
+</body>
+</html>

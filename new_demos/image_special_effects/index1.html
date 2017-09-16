@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Hover Effect Ideas | Set 1</title>
+	
+<style>
+.container {
+	overflow:hidden;
+	width: 400px;
+}
+
+.container:hover {
+	cursor: pointer;
+}
+
+.container img {
+	position:relative;
+	transform: translate3d(-30px, 0, 0);
+	transition: transform 0.35s;
+}
+
+.container img:hover {
+	transform: translate3d(0, 0, 0);
+}
+
+.container div {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.container div h2 {
+	transform: translate3d(30px, 200px, 0);
+	transition: transform 0.35s;
+}
+
+.container div p {
+	transform: translate3d(30px, 180px, 0);
+	transition: transform 0.35s;
+}
+
+.container:hover h2 {
+	transform: translate3d(50px, 200px, 0);
+}
+
+.container:hover p {
+	transform: translate3d(50px, 180px, 0);
+}
+</style>
+
+</head>
+<body>
+
+
+
+<div class="container">
+	<img src="img/12.jpg" />
+	<div>
+	<h2>Nice Lily</h2>
+	<p>Lily likes to play with crayons and pencils</p>
+	</div>
+</div>
+
+</body>
+</html>
+
+
+

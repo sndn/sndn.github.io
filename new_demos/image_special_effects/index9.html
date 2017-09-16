@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Hover Effect Ideas</title>
+
+<style>
+.container {
+	background-color:#333;
+	position:relative;
+	width:480px;
+	height:360px;
+}
+
+.container:before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 80%;
+	height: 1px;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.container:after {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 80%;
+	height: 1px;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.container:hover:before {
+	transform: translate3d(-50%,-50%,0) rotate(45deg);
+}
+
+.container:hover:after {
+	transform: translate3d(-50%,-50%,0) rotate(-45deg);
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+	<img src="img/12.jpg" />
+</div>
+
+</body>
+</html>

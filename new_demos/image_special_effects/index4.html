@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Hover Effect Ideas</title>
+
+<style>
+.container {
+	width:480px;
+	height:360px;
+	position:relative;
+}
+
+.container img {
+	position:relative;
+}
+
+.container div {
+	width:100%;
+	position:absolute;
+	bottom:0;
+	padding:15px;
+	transform:translate3d(0,100%,0);
+	transition: transform 0.35s;
+	background-color:#fff;
+	box-sizing: border-box;
+}
+
+.container:hover div {
+	transform:translate3d(0,0,0);
+}
+
+.container div  h2 {
+	opacity:0;
+	transition: opacity 0.35s;
+}
+
+.container:hover h2 {
+	opacity:1;
+}
+
+.container p {
+	opacity:0;
+	transform:translate3d(0,0,0);
+	transition: opacity 0.35s, transform 0.35s;
+	position:absolute;
+}
+
+.container:hover p {
+	opacity:1;
+	transform:translate3d(0,-270px,0);
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+	<img src="img/12.jpg" />	
+	<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+	<div>
+	<h2>Creative Zoe</h2>
+	</div>
+</div>
+
+</body>
+</html>

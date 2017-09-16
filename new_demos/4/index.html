@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Change background color depending on time</title>
+</head>
+<body>
+
+<script>
+var now = new Date();
+
+var hours = now.getHours();
+
+console.log(hours);
+
+if (hours >= 0 && hours <= 6) {
+	document.body.style.backgroundColor = "black";
+}
+
+else if (hours > 6 && hours <= 12) {
+	document.body.style.backgroundColor = "orange";
+}
+
+else if (hours > 12 && hours <= 18) {
+	document.body.style.backgroundColor = "red";
+}
+
+else if (hours > 18 && hours <= 23) {
+	document.body.style.backgroundColor = "blue";
+}
+</script>
+
+</body>
+</html>

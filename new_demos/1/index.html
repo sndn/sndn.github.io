@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guess my number</title>
+
+<script>
+var computerNumber = Math.round(Math.random() * 100)  + 1;
+console.log(computerNumber);
+
+function guessNumber() {
+	var userNumber = document.getElementById("number").value;
+	console.log(userNumber);
+
+	if (userNumber > computerNumber) {
+		console.log("Enter Smaller Number than " + userNumber);
+	}
+
+	else if (userNumber < computerNumber) {
+		console.log("Enter Bigger Number than " + userNumber);
+	}
+
+	else {
+		console.log("You Won");
+	}
+}
+</script>
+</head>
+<body>
+
+<input type="text" id="number" value="Enter a Number">
+<button onclick="guessNumber()">Click me</button>
+
+</body>
+</html>
