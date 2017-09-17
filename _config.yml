@@ -1,4 +1,5 @@
 # Site Settings
 title: Start Jekyll
+permalink: pretty
 # baseurl: "/jekyll"
 # url: "https://sndn.github.io"
