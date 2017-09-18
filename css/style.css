@@ -1,5 +1,6 @@
-.top {
 
+/* Index Page */
+.top {
 }
 .top_border {
 	height: 4px;
@@ -40,8 +41,7 @@ nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	width: 100%;
-	
+	width: 100%;	
 }
 
 nav ul:before, nav ul:after {
@@ -336,6 +336,7 @@ nav ul ul {
 .bottom_footer a {
 	color: #474747;
 }
+/* Index Page */
 
 /* Inner Pages */
 .inner-page-header {
@@ -352,19 +353,6 @@ nav ul ul {
 	font-size: 30px;
 	font-weight: normal;
 	color: #fff;
-}
-
-.inner-page-header p {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	color: #fff;
-	line-height: 28px;
-}
-
-.inner-page-header p a {
-	color: #fff;
-	text-decoration: underline;	
 }
 
 .designs {
