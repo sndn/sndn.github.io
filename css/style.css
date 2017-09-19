@@ -338,6 +338,30 @@ nav ul ul {
 }
 /* Index Page */
 
+/* About Page */
+.about {
+	padding-top: 48px;
+	padding-bottom: 24px;
+	background-color: #fff;
+}
+
+.about h2 {
+	padding: 0;
+	margin: 0 0 7px 0;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	color: #f62053;
+}
+
+.about p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #838383;
+}
+/* About Page */
+
 /* Inner Pages */
 .inner-page-header {
 	padding-top: 34px;
