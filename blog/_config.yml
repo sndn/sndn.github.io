@@ -1,5 +1,5 @@
-# Site Settings
 title: Start Jekyll
 permalink: pretty
+baseurl: "/blog"
 # baseurl: "/jekyll"
 # url: "https://sndn.github.io"
