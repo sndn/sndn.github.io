@@ -1,6 +1,8 @@
 title: SN Designs
 permalink: pretty
 
+plugins:
+  - jekyll-redirect-from
 redirect_from:
   - /wordpress_development/
   - /web_design/
