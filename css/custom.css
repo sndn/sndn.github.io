@@ -378,21 +378,20 @@ nav {
 
 /* Services Page */
 .graphics_section {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	background-color: #666;
+	padding-top: 65px;
+	padding-bottom: 65px;
+	background-color: #fff;
 	background-image: url(../images/banner.jpg);
 	background-size: cover;
-	text-align: center;
 	margin-bottom: 30px;
-	height: 500px;
+	height: 370px;
 	box-sizing: border-box;
 }
 
 .graphics_section_inner {
 	background-color: #fff;
 	opacity: 0.9;
-	padding: 80px 50px;
+	padding: 50px;
 }
 
 .graphics_section_inner h3 {
@@ -410,24 +409,22 @@ nav {
 	font-size: 18px;
 	color: #d3220e;
 	font-style: italic;
-	line-height: 0;
 }
 
 .print_section {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	background-color: #666;
+	padding-top: 65px;
+	padding-bottom: 65px;
+	background-color: #fff;
 	background-image: url(../images/banner.jpg);
 	background-size: cover;
-	text-align: center;
-	height: 500px;
+	height: 370px;
 	box-sizing: border-box;
 }
 
 .print_section_inner {
 	background-color: #fff;
 	opacity: 0.9;
-	padding: 80px 50px;
+	padding: 50px;
 }
 
 .print_section_inner h3 {
@@ -445,6 +442,5 @@ nav {
 	font-size: 18px;
 	color: #d3220e;
 	font-style: italic;
-	line-height: 0;
 }
 /* Services Page */
