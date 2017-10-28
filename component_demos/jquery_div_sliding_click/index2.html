@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1</title>
+<link href="style.css" rel="stylesheet" media="screen">
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+<style>
+.container {
+	position:relative;
+	width:358px;
+	height:539px;
+	background-image:url("bg_img.jpg");
+	background-repeat:no-repeat;
+}
+
+.header {
+	background-color:#c79c60;
+	width:358px;
+	height:30px;
+	color:#fff;
+	position:absolute;
+	bottom:0;
+	z-index:1;
+}
+
+.content {
+	position:absolute;
+	bottom:0;
+	padding-bottom:40px;
+	width:358px;
+	display:none;
+	color:#fff;
+}
+</style>
+
+<script>
+$( document ).ready(function() {
+	$(".header").click(function(){
+		$(".content").slideToggle("slow");
+	});
+});
+
+
+</script>
+
+</head>
+<body>
+
+<div class="container">
+
+	<div class="header">
+	Click Here
+	</div>
+
+	<div class="content">
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+	</div>
+
+</div>
+
+</body>
+</html>

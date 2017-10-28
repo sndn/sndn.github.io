@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jquery Tabs</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<style>
+.tabsContainer {
+	width: 500px;
+}
+
+.tabs-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.tabs-nav ul li {
+	display: inline-block;
+	background: #34495E;
+	border-width: 1px 1px 0 1px;
+	border-style: solid;
+	border-color: #34495E;
+	margin-right: 5px;
+}
+
+.tabs-nav a {
+	display: block;
+	padding: 10px 15px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.tabs-nav ul li.active {
+	background: #FFF;
+}
+
+.tabs-nav ul li.active a {
+	color: inherit;
+}
+
+.tabs-content {
+	border: 1px solid #34495E;
+	padding: 10px;
+	background: #FFF;
+	margin-top: -1px;
+}
+
+.tabs-content div:not(:first-child) {
+	display: none;
+}
+</style>
+<script>
+$(function(){
+	$('.tabs-nav a').click(function(){
+
+	//Check if the tabs menu has active class
+	$('.tabs-nav li').removeClass('active');
+	$(this).parent().addClass('active');
+
+	// Display active tab
+	var currentTab = $(this).attr('href');
+	$('.tabs-content div').hide();
+	$(currentTab).show();
+
+	return false;
+	});
+});
+</script>
+</head>
+<body>
+
+<div class="tabsContainer">
+	<header class="tabs-nav">
+		<ul>
+		<li class="active"><a href="#tab1">Tab One</a>	</li>
+		<li><a href="#tab2">Tab Two</a></li>
+		<li><a href="#tab3">Tab Three</a></li>
+		<li><a href="#tab4">Tab Four</a></li>
+		</ul>
+	</header>
+ 
+	<section class="tabs-content">	
+		<div id="tab1">This is tab 1</div>
+		<div id="tab2">This is tab 2</div>
+		<div id="tab3">This is tab 3</div>
+		<div id="tab4">This is tab 4</div>
+	</section>
+</div>
+
+</body>
+</html>

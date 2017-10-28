@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1</title>
+<link href="style.css" rel="stylesheet" media="screen">
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+<style>
+.container {
+	position:relative;
+	width:600px;
+	height:300px;
+	border:1px solid red;
+	overflow:hidden;
+}
+
+.inner {
+	position:absolute;
+	width:598px;
+	border:1px solid black;
+	bottom:-121px;
+}
+
+.header {
+	background-color:#c79c60;
+	width:598px;
+	height:30px;
+	color:#fff;
+}
+
+.content {
+	color:#000;
+}
+</style>
+
+<script>
+$( document ).ready(function() {
+	$(".header").click(function() {
+        $(".inner").animate({
+        bottom: '0px'
+        }, 550, function() {
+			//animation complete
+        });
+    });
+});
+
+
+</script>
+
+</head>
+<body>
+
+<div class="container">
+<div class="inner">
+	<div class="header">
+	Click Here
+	</div>
+	<div class="content">
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+	</div>
+
+</div>
+</div>
+
+</body>
+</html>

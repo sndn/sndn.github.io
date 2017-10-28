@@ -219,8 +219,11 @@ nav {
 }
 
 .main img {
-	display: inline;
+	display: block;
 	text-align: center;
+}
+
+.main img.bordered {
 	border: 1px solid #999;
 }
 
