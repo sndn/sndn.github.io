@@ -384,14 +384,15 @@ nav {
 	background-image: url(../images/banner2.jpg);
 	background-size: cover;
 	margin-bottom: 30px;
-	height: 370px;
-	box-sizing: border-box;
+	height: 295px;
+	box-sizing: border-box;	
 }
 
 .graphics_section_inner {
 	background-color: #fff;
 	opacity: 0.9;
 	padding: 50px;
+	text-align: left;
 }
 
 .graphics_section_inner h3 {
@@ -417,7 +418,7 @@ nav {
 	background-color: #fff;
 	background-image: url(../images/banner3.jpg);
 	background-size: cover;
-	height: 370px;
+	height: 295px;
 	box-sizing: border-box;
 }
 
@@ -425,6 +426,7 @@ nav {
 	background-color: #fff;
 	opacity: 0.9;
 	padding: 50px;
+	text-align: left;
 }
 
 .print_section_inner h3 {
