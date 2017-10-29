@@ -384,8 +384,8 @@ nav {
 	background-image: url(../images/banner2.jpg);
 	background-size: cover;
 	margin-bottom: 30px;
-	height: 295px;
-	box-sizing: border-box;	
+	/*height: 295px;
+	box-sizing: border-box;	*/
 }
 
 .graphics_section_inner {
@@ -418,8 +418,8 @@ nav {
 	background-color: #fff;
 	background-image: url(../images/banner3.jpg);
 	background-size: cover;
-	height: 295px;
-	box-sizing: border-box;
+	/*height: 295px;
+	box-sizing: border-box;*/
 }
 
 .print_section_inner {
