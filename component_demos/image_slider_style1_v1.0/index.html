@@ -12,6 +12,7 @@
 	width: 500px;
 	height: 300px;
 	margin: 40px auto;
+	position: relative;
 }
 
 .slider-inner {
@@ -27,18 +28,43 @@
 	display: inline-block;
 }
 
+.prev {
+	position: absolute;
+	left: -10px;
+	top: 38%;
+}
+
 .next {
 	position: absolute;
-	right: 0;
+	right: -10px;
+	top: 38%;
 }
 
 .fade {
 	-webkit-animation-name: fade;
-	-webkit-animation-duration: 1.2s;
+	-webkit-animation-duration: .2s;
 	animation-name: fade;
-	animation-duration: 1.2s;
+	animation-duration: .2s;
 	-webkit-animation-timing-function: ease-in-out; /* Safari 4.0 - 8.0 */
 	animation-timing-function: ease-in-out;
+}
+
+.bullets_holder {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	bottom: 10px;
+
+}
+
+.bullets {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: red;
+	margin-right: 5px;
+	
 }
 
 @-webkit-keyframes fade {
@@ -55,16 +81,15 @@
 <body>
 
 <div class="slider-outer">
-<img src="images/arrow-left.png" class="prev">
-
 <div class="slider-inner">
 	<img src="images/image1.jpg">
 	<img src="images/image2.jpg">
 	<img src="images/image3.jpg">
 	<img src="images/image4.jpg">
 </div>
-
+<img src="images/arrow-left.png" class="prev">
 <img src="images/arrow-right.png" class="next">
+<div class="bullets_holder"></div>
 </div>
 
 </body>

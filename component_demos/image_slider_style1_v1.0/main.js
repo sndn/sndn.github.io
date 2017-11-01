@@ -45,5 +45,16 @@ $(document).ready(function() {
 			$('.slider-inner img:first').addClass('active');
 		}
 	}
-	setInterval(auto, 3000);
+	setInterval(auto, 6000);
+
+	$(".slider-inner img").each(function() {
+		$(".bullets_holder").append('<div class="bullets"></div>');
+	});
+
+	$("body").on("click", ".bullets", function() {
+		var bulletindex = $(this).index();		
+		$(".slider-inner img").removeClass('active').eq(bulletindex).addClass('active');
+	});
+
+
 });
