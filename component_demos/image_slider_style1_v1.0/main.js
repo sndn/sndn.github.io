@@ -7,12 +7,12 @@ $(document).ready(function() {
 		var nextImg = $('.active').next();		
 
 		if (nextImg.length == true) {
-			currentImg.removeClass('active')	;
+			currentImg.removeClass('active');
 			nextImg.addClass('active');
 		}
 
 		if (nextImg.length == false) {
-			currentImg.removeClass('active')	;
+			currentImg.removeClass('active');
 			$('.slider-inner img:first').addClass('active');
 		}
 	});
@@ -22,12 +22,12 @@ $(document).ready(function() {
 		var prevImg = $('.active').prev();
 
 		if (prevImg.length == true) {
-			currentImg.removeClass('active')	;
+			currentImg.removeClass('active');
 			prevImg.addClass('active');
 		}
 
 		if (prevImg.length == false) {
-			currentImg.removeClass('active')	;
+			currentImg.removeClass('active');
 			$('.slider-inner img:last').addClass('active');
 		}		
 	});
@@ -37,11 +37,11 @@ $(document).ready(function() {
 		var nextImg = $('.active').next();
 
 		if (nextImg.length == true) {
-			currentImg.removeClass('active')	;
+			currentImg.removeClass('active');
 			nextImg.addClass('active');
 		}
 		else {
-			currentImg.removeClass('active')	;
+			currentImg.removeClass('active');
 			$('.slider-inner img:first').addClass('active');
 		}
 	}
@@ -51,10 +51,9 @@ $(document).ready(function() {
 		$(".bullets_holder").append('<div class="bullets"></div>');
 	});
 
-	$("body").on("click", ".bullets", function() {
+	$("body").on("click", ".bullets", function() {		
 		var bulletindex = $(this).index();		
 		$(".slider-inner img").removeClass('active').eq(bulletindex).addClass('active');
+		clearInterval(auto);
 	});
-
-
 });
