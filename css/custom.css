@@ -453,8 +453,7 @@ nav {
 	margin-bottom: 25px;
 }
 
-.bpost_header {
-	margin: 0;
+h2.bpost_header {	
 	background-color: blue;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -469,6 +468,6 @@ nav {
 }
 
 .bpost ul li {
-	
+
 }
 /* Blog Page */
