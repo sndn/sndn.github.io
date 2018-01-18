@@ -446,3 +446,29 @@ nav {
 	font-style: italic;
 }
 /* Services Page */
+
+/* Blog Page */
+.bpost {
+	border: 1px solid #333;
+	margin-bottom: 25px;
+}
+
+.bpost_header {
+	margin: 0;
+	background-color: blue;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+}
+
+.bpost ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.bpost ul li {
+	
+}
+/* Blog Page */
