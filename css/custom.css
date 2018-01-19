@@ -451,6 +451,7 @@ nav {
 .bpost {
 	border: 1px solid #333;
 	margin-bottom: 25px;
+	text-align: left;
 }
 
 .bpost_header {	
@@ -460,7 +461,7 @@ nav {
 	font-size: 24px;
 	color: #fff;
 	display: block;
-	padding: 20px;
+	padding: 10px 15px;
 }
 
 .bpost ul {
@@ -480,5 +481,6 @@ nav {
 	font-weight: 400;
 	font-size: 17px;
 	color: #333;
+	padding: 10px 15px;
 }
 /* Blog Page */
