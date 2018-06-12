@@ -1,11 +1,11 @@
-$(document).ready (function () {
+$(document).ready(function () {
 
 	$("nav ul li").children("ul").parent("li").children("a").addClass("plus_icon");
 
 	var windowWidth = $(window).width();
 	if (windowWidth > 480) {
 
-		$("nav ul li").hover (function () {
+		$("nav ul li").hover(function () {
 			$(this).children("ul").fadeIn("fast");
 			return false;
 		}, function () {
