@@ -248,7 +248,9 @@ nav {
 /* Main */
 
 /* Service */
-.service_box {	
+.service_box {
+	border: 1px solid #d9d9d9;
+	padding-bottom: 25px;	
 }
 
 .service_box_img {
