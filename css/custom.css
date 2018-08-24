@@ -454,6 +454,7 @@ nav {
 	padding: 20px;
 	margin-bottom: 25px;
 	text-align: left;
+	border: 1px solid #999;
 }
 
 .pad h4 {
