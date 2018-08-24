@@ -449,6 +449,35 @@ nav {
 }
 /* Services Page */
 
+/* Email Page */
+.pad {
+	padding: 20px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.pad h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #000;
+	padding: 0;
+	margin: 18px 0;
+}
+
+.pad p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #333;
+	display: block;
+}
+
+.pad p a {
+	color: #d3220e;
+}
+/* Email Page */
+
 /* Blog Page */
 .bpost {
 	border: 1px solid #333;
