@@ -46,7 +46,6 @@ nav ul li {
 	padding: 0;
 	float: left;
 	position: relative;
-	border: 1px solid red;
 }
 
 nav ul a {
@@ -58,8 +57,6 @@ nav ul a {
 	color: #000;
 	line-height: 100px;
 	text-decoration: none;
-	border-bottom: 2px solid #666;
-	background-color: #eee;
 }
 
 nav ul a:hover {
