@@ -46,6 +46,7 @@ nav ul li {
 	padding: 0;
 	float: left;
 	position: relative;
+	border: 1px solid red;
 }
 
 nav ul a {
