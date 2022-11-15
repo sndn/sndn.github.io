@@ -1,3 +1,8 @@
+body {
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
 header {
 	background: linear-gradient(45deg, #02b3e3, #02ccbb);
 }
@@ -14,8 +19,20 @@ header {
 	justify-content: space-between;	
 }
 
-.navbar-brand {
+.navbar_brand {
 	margin: 15px;
+	font-weight: 600;
+	font-size: 32px;	
+	line-height: 34px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.navbar_brand span {
+	display: block;
+	font-weight: 400;
+	font-size: 18px;
+	font-style: italic;
 }
 
 .nav_toggle {
@@ -53,20 +70,15 @@ header {
 	display: block;	
 	box-sizing: border-box;	
 	padding: 10px;
-	font-family: poppins,sans-serif;
-	font-size: 16px;
-	font-weight: 600;
+	font-size: 19px;
+	font-weight: 400;
 	color: #fff;
 	line-height: 23px;
 	white-space: nowrap;
 	text-decoration: none;
 }
 
-
 @media (min-width: 576px) {
-	.navbar {	
-	}
-
 	.navbar-brand {
 		margin: 0;	
 	}
@@ -104,80 +116,52 @@ main {
 	padding-bottom: 50px;
 }
 
-.cards {
-	border: 1px solid #d9d9d9;
-	padding-bottom: 25px;
+main h2 {
 	margin-bottom: 25px;
 }
 
-.cards img {
-	display: block;
-}
-
-.cards h2 {
-	font-family: 'Montserrat', sans-serif;
+main h2 a {
 	font-weight: 600;
 	font-size: 24px;	
 	line-height: 34px;
-	padding: 0;
-	margin: 20px;
-}
-
-.cards h2 a {
-	text-decoration: none;
 	color: #000;
+	text-decoration: none;
 }
 
-.cards h2 a:hover {
+main h2 a:hover {
 	color: #d3220e;
 	text-decoration: underline;
 	text-decoration-style: double;
 }
 
-/*.read_more {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	font-size: 18px;
-	color: #d3220e;
-	font-style: italic;
-	text-decoration: none;
-	margin: 20px;
-}*/
-
-main h1 {
-	font-family: 'Montserrat', sans-serif;
+article h1, article h2, article h3 {
 	font-weight: 600;
 	font-size: 24px;	
 	line-height: 34px;
-	padding: 0;
-	margin: 0 0 25px 0;
+	margin-bottom: 35px;
 }
 
-main p {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	font-size: 17px;
+article p {
+	font-weight: 400;
+	font-size: 18px;
 	color: #000;
-	line-height: 24px;
+	line-height: 26px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
-.footer {
+footer {
 	background-color: #2c2c2c;
 	padding-top: 38px;
-	padding-bottom: 20px;
-	font-family: poppins,sans-serif;
+	padding-bottom: 24px;
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 300;
 	color: #fff;
 	line-height: 26px;
 	text-align: center;
 }
 
-.footer a {
-	font-family: poppins,sans-serif;
-	font-size: 15px;
-	font-weight: 400;
+footer a {
 	color: #fff;
-	line-height: 26px;
 	text-decoration: none;
 }
