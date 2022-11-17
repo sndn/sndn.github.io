@@ -2,19 +2,6 @@
 layout: default
 ---
 
-<h2><a href="">How to develop a wordpress theme from scratch using _s framework and bootstrap5</a></h2>
-<h2><a href="">How to develop a joomla theme from scratch</a></h2>
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-        {%- if post.image -%}
-          <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
-        {%- else -%}
-          {%- assign postImage = "/assets/images/image-default.jpg" -%}
-          <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
-        {%- endif -%}
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+{% endfor %}
