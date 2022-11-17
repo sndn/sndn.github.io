@@ -4,7 +4,7 @@ layout: default
 
 {% for post in site.posts %}
  {%- if post.image -%}
-          <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
+          <img src="{{- post.image | relative_url -}}" class="img-fluid">
         {%- else -%}
           {%- assign postImage = "/assets/images/image-default.jpg" -%}
           <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
