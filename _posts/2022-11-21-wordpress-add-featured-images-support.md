@@ -17,17 +17,15 @@ function mytheme_setup() {
 <p>And, now paste this code in your theme file where you want the featured image to appear.</p>
 
 <xmp>
-<?php the_post_thumbnail(); ?>
+the_post_thumbnail();
 </xmp>
 
 <p>Alternatively, you can also use this code in your theme file.</p>
 
 <xmp>
-<?php
 if( has_post_thumbnail() ):
 echo get_the_post_thumbnail();
 endif;
-?>
 </xmp>
 
 <h2>Disabling auto-resizing of uploaded images</h2>
