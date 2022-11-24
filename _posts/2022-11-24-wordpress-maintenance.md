@@ -16,7 +16,7 @@ Though wordpress is a very robust cms it needs maintainance and care from time t
 
 A ill-maintained website can kill your business and offers the opportunity for your competitors to grow. Hence, its extremely important to have a properly maintained wordpress website.
 
-Website maintenance is an ongoing process that undertakes careful observation and numerous other tasks to make the website stay secured and run smoothly. I am an experienced wordpress developer and SEO professional. I offer trust worthy wordPress website maintenance services & support. Here is a complete list of services which I am offering.
+Website maintenance is an ongoing process that undertakes careful observation and numerous other tasks to make the website stay secured and run smoothly. I am an experienced wordpress developer and SEO professional. I offer trust worthy wordPress website maintenance services and support. Here is a complete list of services which I am offering.
 
 a) Updating wordpress core version: The official wordpress team releases core wordpress updates from time to time. As a busy business owner you may not have the time to login inside your wordpress to check if any core wordpress update is available or not. I can help you in this situation. Since, I spend time with wordpress daily I will be aware of any core updates. I will take backup of your existing website and update your wordpress incase any core update is available.
 
@@ -34,4 +34,4 @@ If you have your wordpress website hacked then don't hesitate to contact me. I w
 
 g) Optimizing SEO of your wordpress website: There is no use of a website having zero visitors. You need real human traffic to your website for your business to succeed online. I offer complete wordpress seo services. You can read more about it by visiting my wordpress seo services page.
 
-So, if you need any wordpress maintenace or wordpress seo services then look no further. [Contact me](https://sndn.github.io/contact) and I will get back to you asap! Thank you, take care and have a great day.
+So, if you need any wordpress maintenace or wordpress seo services then look no further. [Contact me](https://sndn.github.io/contact/) and I will get back to you asap! Thank you, take care and have a great day.
