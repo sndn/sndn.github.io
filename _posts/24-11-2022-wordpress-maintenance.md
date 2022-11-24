@@ -5,6 +5,8 @@ permalink: /wordpress-maintenance/
 
 # WordPress Maintenance
 
+Though wordpress is a very robust cms it needs maintainance and care from time to time. Let's look at some of the most common maintenance problems which affects wordpress websites in general.
+
 - Outdated wordpress version
 - Outdated themes and plugins
 - Slow website loading speed
