@@ -2,3 +2,4 @@ title: SN Designs
 permalink: pretty
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
