@@ -1,4 +1,4 @@
 ---
 title: Services
-redirect_to: https://sndn.github.io/
+redirect_to: https://www.wphelpin.com/
 ---
