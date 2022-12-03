@@ -838,6 +838,18 @@ article ul li {
 	margin-bottom: 10px;
 }
 
+#my-form {
+	box-shadow: 4px 4px 12px #999;
+	padding: 20px;
+}
+
+.label {
+	font-size: 20px;
+	color: #1c1c19;
+	margin-bottom: 15px;
+	display: block;
+}
+
 footer {
 	background-color: #2c2c2c;
 	padding-top: 38px;
