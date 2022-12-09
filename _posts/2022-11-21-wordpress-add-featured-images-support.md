@@ -3,7 +3,7 @@ layout: posts
 permalink: /wordpress-add-featured-images-support/
 ---
 
-<h1>How to add featured images support in wordpress</h1>
+# How to add featured images support in wordpress
 <p class="date">Posted On {{ page.date | date: '%-d %B %Y' }}</p>
 
 To add featured images support in your Wordpress theme, paste the following code in your functions.php
