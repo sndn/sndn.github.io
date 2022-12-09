@@ -1,11 +1,10 @@
 ---
 layout: posts
 permalink: /wordpress-add-featured-images-support/
-auto_ids: false
 ---
 
-# How to add featured images support in wordpress
-<span>Posted On {{ page.date | date: '%-d %B %Y' }}</span>
+<h1>How to add featured images support in wordpress</h1>
+<p class="date">Posted On {{ page.date | date: '%-d %B %Y' }}</p>
 
 To add featured images support in your Wordpress theme, paste the following code in your functions.php
 
@@ -32,7 +31,7 @@ endif;
 ?>
 </xmp>
 
-## Disabling auto-resizing of uploaded images
+<h2>Disabling auto-resizing of uploaded images</h2>
 
 Wordpress generally resizes uploaded images (featured images or images uploaded in posts) into different sizes. This creates multiple copies of the same image which makes your server take more space due to duplicate data or image files. Today, when most websites are responsive there is no need to create different sizes of same image. To prevent that paste the following code in your functions.php file.
 
