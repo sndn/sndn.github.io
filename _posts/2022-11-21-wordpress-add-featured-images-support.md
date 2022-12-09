@@ -1,10 +1,11 @@
 ---
 layout: posts
 permalink: /wordpress-add-featured-images-support/
+auto_ids: false
 ---
 
 # How to add featured images support in wordpress
-Posted On {{ page.date | date: '%-d %B %Y' }}
+<span>Posted On {{ page.date | date: '%-d %B %Y' }}</span>
 
 To add featured images support in your Wordpress theme, paste the following code in your functions.php
 
