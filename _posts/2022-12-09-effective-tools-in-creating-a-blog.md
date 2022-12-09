@@ -1,6 +1,6 @@
 ---
 layout: posts
-permalink: /importance-of-blog-pinging/
+permalink: /effective-tools-in-creating-a-blog/
 ---
 
 # The Effective Tools in creating a Blog
