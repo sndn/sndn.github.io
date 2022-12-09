@@ -1,4 +1,5 @@
 title: SN Designs
 permalink: pretty
+auto_ids: false
 plugins:
   - jekyll-redirect-from
