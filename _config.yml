@@ -1,6 +1,2 @@
 title: SN Designs
 permalink: pretty
-kramdown:
-  auto_ids: false
-plugins:
-  - jekyll-redirect-from
