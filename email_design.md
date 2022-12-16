@@ -1,5 +1,6 @@
 ---
 title: Email Design
+permalink: /email_design/
 ---
 
 # Email Designs
