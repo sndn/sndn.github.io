@@ -1,6 +1,6 @@
 ---
-title: Email Design
-permalink: /email_design/
+permalin: /email_design/
+redirect_to: https://sndn.github.io/
 ---
 
 # Email Designs
