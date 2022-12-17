@@ -1,5 +1,5 @@
 ---
-permalin: /email_design/
+permalink: /email_design/
 redirect_to: https://sndn.github.io/
 ---
 
