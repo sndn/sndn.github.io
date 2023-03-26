@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    width: 100%;
+    text-align: center;
+    /* margin-left: 19rem; */
+
+    
+}
+.tempContainer {
+    /* width: 100%; */
+    height: 100%;
+    /* margin-left: 0.3rem; */
+    /* background-color: #174b42; */
+    background-image: url(../images/Background2.jpg);
+    background-size: cover;
+}
+.mainSectionHandler{
+ margin-top: -4rem;
+/* box-shadow: 0 1px 20px 3px rgb(214, 214, 230); */
+/* box-shadow:0 3px 6px 0 rgba(200, 200, 200, 0.7) ; */
+/* -moz-box-shadow:0 3px 6px 0 rgba(200, 200, 200, 0.7) ;
+-webkit-box-shadow:0 3px 6px 0 rgba(200, 200, 200, 0.7) ;
+-khtml-box-shadow:0 3px 6px 0 rgba(200, 200, 200, 0.7) ; */
+width: 100%;
+
+}
+/* .halfBgColor {
+    background-image: linear-gradient(to right, blue, red);
+    width: 98%;
+    height: 60px;
+    border-bottom-right-radius: 18rem;
+    border-top-left-radius: 17rem;
+    margin-left: 0.7rem;
+} */
+
+/* screen section  */
+.mainScreenSection {
+    width: 60%;
+    margin-left: 17%;
+    height: 14.5rem;
+    margin-top: 7%;
+}
+
+
+
+/* .........end screen ........... */
+/* ......... start qr code........... */
+.mainWidthQr{
+    margin-left: -5rem;
+}
+.mainQrCodeSection{
+    width: 100%;
+    height: 12rem ;
+    margin-left: 5rem;
+    /* border: 2px solid green; */
+}
+.qrLeftText{
+    color:white;
+    font-size: 13px;
+    /* padding-bottom: 0px; */
+    margin-top: -7px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.main_head {
+    color: white;
+   font-family: arial;
+}
+p{
+    margin-bottom: 0rem;
+    margin-top: 0.6rem;
+}
+.voucherText{
+    font-size: 0.6rem;
+    margin-top: -4px;
+    text-align: justify;
+
+}
+.mainQrCode {
+    /* background-color: #00B9F1;
+    padding: 0.6rem 0rem 0.6rem 0rem;
+    width: 16.5rem; */
+    margin-left: 7.2rem
+
+    
+}
+.sendCodeBtn:hover
+{
+    color: blue;
+    background-color: white;
+    
+}
+.freePaypal{
+    font-size: 0.9rem
+}
+.freePaypal:hover{
+    color:#6c757d;
+    background-color:white;
+}
+.qrImage{
+    width: 50%;
+    height: 14.2rem
+    /* margin-top:5px; */
+}
+.leftText{
+        text-align: justify;
+}
+/* ......... end qr code........... */
+/* ......... start images section........... */
+
+.mainImageSection{
+    width: 98%;
+    height: 12rem ;
+    /* border: 2px solid green; */
+    margin-left:11%;
+}
+.imageLogo{
+    width: 13rem;
+    padding-bottom: 0.2rem;
+}
+
+
+
+.cardImage {
+    width: 10rem;
+    height: 10rem;
+    margin-left: 7px;
+    margin-top:12px;
+}
+.flexCustom{
+    padding-left: 1rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-left: 12.4rem;
+}
+.logov{
+    height:auto !important;
+    padding:66px 0px;
+    background-color: white;
+}
+
+.qrImage
+{
+  /* width: 100%; */
+}
+/* ......... end images section........... */
+
+.b1 {
+	background-color: #fff;
+	border-radius: 6px;
+	padding: 6px 12px;
+	margin-top: 15px;
+	border: 1px solid #ccc;
+	text-align: left;
+
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 400px
+	font-size: 16px;
+	color: #212529;
+	line-height: 24px;
+}
+
+.b2 {
+	background-color: #0d6efd;
+	border-radius: 6px;
+	padding: 6px 12px;
+	margin-top: 8px;
+	border: 1px solid #0d6efd;
+	text-align: center;
+
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 400px
+	font-size: 16px;
+	color: #fff;
+	line-height: 24px;
+}
+
+.b3 {
+	background-color: #6c757d;
+	border-radius: 6px;
+	padding: 6px 12px;
+	margin-top: 8px;
+	border: 1px solid #6c757d;
+	text-align: center;
+
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 400px
+	font-size: 14px;
+	color: #fff;
+	line-height: 22px;
+}
