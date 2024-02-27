@@ -208,6 +208,11 @@ article ul li {
 	margin-bottom: 10px;
 }
 
+xmp {
+	background-color: #1a0c09;
+	color: #fff;
+}
+
 footer {
 	background-color: #2c2c2c;
 	padding-top: 38px;
