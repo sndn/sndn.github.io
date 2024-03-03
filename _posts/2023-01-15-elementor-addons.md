@@ -1,6 +1,7 @@
 ---
 layout: posts
 permalink: /elementor-addons/
+redirect_to: https://sndn.github.io/
 ---
 
 # Popular Free and Premium Elementor Addons
