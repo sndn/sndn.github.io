@@ -1,6 +1,7 @@
 ---
 layout: posts
 permalink: /virtual_assistance/
+redirect_to: https://sndn.github.io/
 ---
 
 # Skyrocket Your Efficiency: Hire a Virtual Assistant Today!
