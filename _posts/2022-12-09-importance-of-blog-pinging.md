@@ -1,6 +1,7 @@
 ---
 layout: posts
 permalink: /importance-of-blog-pinging/
+redirect_to: https://sndn.github.io/
 ---
 
 # The Importance of Blog Pinging
