@@ -1,6 +1,7 @@
 ---
 layout: posts
 permalink: /effective-tools-in-creating-a-blog/
+redirect_to: https://sndn.github.io/
 ---
 
 # The Effective Tools in creating a Blog
