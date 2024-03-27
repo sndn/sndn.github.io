@@ -4,8 +4,10 @@ body {
 }
 
 header {
-	padding-top: 60px;
-	padding-bottom: 100px;
+	background-color: #10b0da;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 10px solid #2573a4;
 }
 
 .custom_row {
@@ -110,10 +112,40 @@ header {
 	}
 }
 
-main {	
+main {
+	background-color: #dee8ea;
 	min-height: 800px;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+.article {
+	background-color: #fff;
+}
+
+.article p {
+	font-weight: 400;
+	font-size: 22px;
+	color: #1c1c19;
+	line-height: 31px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.article p a {
+	color: #1c1c19;
+	font-weight: bold;
+}
+
+.article ul {
+	padding-left: 18px;
+	list-style-type: disc;
+}
+
+.article ul li {
+	font-size: 22px;
+	color: #1c1c19;
+	margin-bottom: 10px;
 }
 
 main h1, main article h1 {
